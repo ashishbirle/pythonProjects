@@ -25,7 +25,7 @@ def get_movie_credits(person_id, api_key):
 
 if __name__ == "__main__":
     name = input("Enter a celebrity's name: ")
-    api_key = "a8d8caafe03ce36a91157bdae4bffa0a"
+    api_key = "YOUR_TMDB_API_KEY_HERE" #Repalce this with your TMDB API key or load from .env
 
     person_id, known_for = get_person_id(name, api_key)
 
